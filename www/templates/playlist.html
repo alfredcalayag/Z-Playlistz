@@ -1,0 +1,9 @@
+<ion-view view-title="{{playlist.title}}">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="song in playlist.songs">
+        {{song.artist}} - {{song.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
